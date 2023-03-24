@@ -1,0 +1,26 @@
+{
+  // "editor.formatOnSave": true,
+  // "eslint.validate": ["typescript", "javascript"],
+  // "eslint.options": {
+  //   "extensions": [".js", ".jsx", ".ts", ".tsx"]
+  // },
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.lintTask.enable": true,
+  "eslint.run": "onType",
+  "eslint.workingDirectories": ["./"],
+  // "eslint.quiet": true,
+  // "editor.tabSize": 2,
+  // "editor.insertSpaces": true,
+  // "editor.detectIndentation": false
+  "eslint.enable": true,
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "eslint.quiet": false
+}
